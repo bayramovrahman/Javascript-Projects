@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+  background-color: #2bd5e9 !important;
+}
+
+h1 {
+  margin: 15px 0 25px !important;
+  text-align: center !important;
+  font-size: 30px !important;
+}
+
+input {
+  color: #022255 !important;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus {
+  box-shadow: 0 0 5px rgba(246, 8, 118, 0.8) !important;
+  border: 1px solid rgba(246, 8, 110, 0.8) !important;
+}
+
+.container {
+  width: 100% !important;
+  height: 100vh !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.form-horizontal {
+  width: 350px !important;
+  background-color: #ffffff !important;
+  padding: 25px 30px !important;
+  border-radius: 12px !important;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5) !important;
+}
+
+.control-label {
+  text-align: left !important;
+  padding-bottom: 4px !important;
+}
+
+.progress {
+  height: 3px !important;
+}
+
+.form-group {
+  margin-bottom: 10px !important;
+}
+
+.progress-bar-danger {
+  background-color: #e90f10 !important;
+}
+.progress-bar-warning {
+  background-color: #ffad00 !important;
+}
+.progress-bar-success {
+  background-color: #02b502 !important;
+}
+
+.login-btn {
+  width: 100% !important;
+  background-image: linear-gradient(to right, #f6086e, #ff133a) !important;
+  font-size: 18px !important;
+  color: #fff !important;
+  margin: 0 auto 5px !important;
+  padding: 8px 0 !important;
+}
+
+.login-btn:hover {
+  background-image: linear-gradient(to right, rgba(255, 0, 111, 0.8), rgba(247, 2, 43, 0.8)) !important;
+  color: #fff !important;
+}
+
+.fa-eye {
+  color: #022255 !important;
+  cursor: pointer !important;
+  position: relative;
+  bottom: 31px;
+  right: 10px;
+}
+.fas {
+  margin-top: 5px !important;
+}
+.ex-account p a {
+  color: #f6086e !important;
+  text-decoration: underline !important;
+}
+.fa-circle {
+  font-size: 8px !important;
+}
+.fa-check {
+  color: #02b502 !important;
+}
